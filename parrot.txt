@@ -1,0 +1,11 @@
+REM Author: Luke487
+REM Description: opens dancing parrot lol
+REM Version: 1.5
+DELAY 600
+GUI r
+DELAY 600
+STRING cmd
+ENTER
+DELAY 1200
+STRING curl parrot.live
+ENTER
