@@ -1,0 +1,9 @@
+REM Author: Luke487
+REM Description: Opens powershell messagebox
+REM Version: 1.5
+DELAY 600
+GUI x
+DELAY 600
+STRING U
+DELAY 200
+STRING I

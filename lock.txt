@@ -1,0 +1,5 @@
+REM Author: Luke487
+REM Description: Locks computer
+REM Version: 1.5
+DELAY 600
+GUI l

