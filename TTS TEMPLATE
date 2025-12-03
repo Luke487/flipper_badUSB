@@ -1,0 +1,22 @@
+REM Author: Luke487
+REM Description: TTS using Microsoft Sam
+REM VERSON: 1.0
+DELAY 500
+GUI r
+DELAY 300
+STRING powershell
+DELAY 200
+ENTER
+DELAY 400
+STRING Add-Type -AssemblyName System.Speech
+DELAY 500
+ENTER
+STRING $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
+DELAY 500
+ENTER
+STRING $synth.SelectVoice("Microsoft Sam") # Optional: Specify the voice if multiple are present
+DELAY 500
+ENTER
+STRING$synth.Speak("INSERT TEXT HERE")
+DELAY 500
+ENTER
