@@ -14,7 +14,7 @@ GUI r
 STRING powershell
 ENTER
 DELAY 500
-STRING PowerShell -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('ResourceEater3000 has been opened successfully. NOMNOMNOMNOM')"
+STRING PowerShell -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('ResourceEater3000 has been opened successfully. NOMNOMNOMNOM :D')"
 ENTER
 DELAY 500
 GUI d
