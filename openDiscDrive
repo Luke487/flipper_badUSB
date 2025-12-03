@@ -1,0 +1,13 @@
+REM Author: Luke487
+REM Description: eject disc drive (if applicable)
+REM Version: 1.0
+DELAY 500
+GUI r
+DELAY 200
+STRING cmd
+DELAY 200
+ENTER
+DELAY 700
+STRING powershell (New-Object -ComObject WMPlayer.OCX.7).cdromCollection.item(0).Eject()
+DELAY 1000
+ENTER
