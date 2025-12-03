@@ -14,9 +14,10 @@ ENTER
 STRING $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 DELAY 500
 ENTER
-STRING $synth.SelectVoice("Microsoft Sam") # Optional: Specify the voice if multiple are present
+STRING $synth.SelectVoice("Microsoft Sam") #Optional: Specify the voice if multiple are present
 DELAY 500
 ENTER
-STRING$synth.Speak("INSERT TEXT HERE")
+DELAY 2000
+STRING $synth.Speak("INSERT TEXT HERE")
 DELAY 500
 ENTER
